@@ -17,6 +17,7 @@
     />
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/custom-style.css" />
     <title>Lusso Perfumes</title>
   </head>
@@ -98,7 +99,7 @@
         </div>
       </section>
       <section id="section-hero" class="section-hero">
-        <div class="container-fluid">
+        <div class="containeriiiiii">
           <div class="row">
             <div class="col-6 d-none d-md-block">Image left</div>
             <div class="col-12 col-md-6 p-0 right">
@@ -107,6 +108,9 @@
               >
                 <div
                   class="wrapper px-4 row flex-column align-items-center justify-content-around"
+                  data-aos="fade-up"
+                  data-aos-easing="linear"
+                  data-aos-duration="1000"
                 >
                   <div>
                     <h2 class="abril-font mb-0 fs-1">Boost your confidence.</h2>
@@ -143,7 +147,12 @@
         </div>
       </section>
       <section id="section-him-her" class="container">
-        <div class="row flex-column flex-md-row mt-5">
+        <div
+          class="row flex-column flex-md-row mt-5"
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+        >
           <div class="col-md-6">
             <div>
               <img class="w-100" src="./img/veralusso.jpg" alt="Vera Lusso" />
@@ -161,7 +170,12 @@
             </div>
           </div>
         </div>
-        <div class="row flex-column flex-md-row-reverse mt-5">
+        <div
+          class="row flex-column flex-md-row-reverse mt-5"
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+        >
           <div class="col-md-6">
             <div>
               <img class="w-100" src="./img/lussomaior.jpg" alt="Lusso Maior" />
@@ -182,28 +196,37 @@
       </section>
       <section id="section-carousel" class="container">
         <div class="row">
-          <div class="col">
+          <div
+            class="col"
+            data-aos="zoom-in"
+            data-aos-easing="linear"
+            data-aos-duration="600"
+          >
             <div>
-              <h2 class="fs-1 work-sans-font text-center pt-5">Products</h2>
+              <h2
+                class="fs-1 work-sans-font text-center pt-5 text-uppercase fw-light"
+              >
+                Products
+              </h2>
             </div>
             <div class="p-2">
               <div class="carousel">
-                <div>
+                <div class="px-3">
                   <img src="./img/amsterdam.jpg" alt="Lusso Amsterdam" />
                 </div>
-                <div>
+                <div class="px-3">
                   <img src="./img/barcelona.jpg" alt="Lusso Barcelona" />
                 </div>
-                <div>
+                <div class="px-3">
                   <img src="./img/paris.jpg" alt="Lusso Paris" />
                 </div>
-                <div>
+                <div class="px-3">
                   <img src="./img/rome.jpg" alt="Lusso Rome" />
                 </div>
-                <div>
+                <div class="px-3">
                   <img src="./img/tokyo.jpg" alt="Lusso Tokyo" />
                 </div>
-                <div>
+                <div class="px-3">
                   <img src="./img/london.jpg" alt="Lusso London" />
                 </div>
               </div>
@@ -224,14 +247,19 @@
             </div>
           </div>
         </div>
-        <div class="row">
+        <div
+          class="row"
+          data-aos="fade-right"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+        >
           <div class="col">
             <div class="position-relative">
               <div class="bar">
                 <p class="mb-0 abril-font text-center py-4 px-3">Longevity</p>
               </div>
               <div
-                class="bar-2 work-sans-font fw-lighter text-center py-2 d-flex align-items-center"
+                class="bar-2 work-sans-font fw-light text-center py-2 d-flex align-items-center"
               >
                 <div class="col-3">
                   <img
@@ -256,12 +284,105 @@
             </div>
           </div>
         </div>
+        <div
+          class="row"
+          data-aos="fade-left"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+        >
+          <div class="col">
+            <div>
+              <img class="cover" src="./img/forher.png" alt="Cover" />
+            </div>
+            <div class="position-relative">
+              <p
+                class="mb-0 abril-font text-center py-4 px-3 position-absolute bar-storage"
+              >
+                Storage
+              </p>
+              <p
+                class="mb-0 work-sans-font fw-light text-center py-4 px-3 position-absolute bar-storage-2"
+              >
+                Store your perfumes in a cool, dark place with a consistent
+                temperature. A drawer or cabinet in your bedroom is the ideal
+                location. If a perfume bottle is not tightly closed after each
+                use, the aroma of the perfume might alter due to oxidation. Be
+                cautious when doing so.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row"
+          data-aos="fade-right"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+        >
+          <div class="col">
+            <div class="recommendation">
+              <img
+                class="paris-nobg"
+                src="./img/paris-nobg.png"
+                alt="Lusso Paris"
+              />
+              <p class="text-center work-sans-font fw-light">
+                We recommend that you spray our fragrances on materials rather
+                than skin in order to preserve the natural aroma as much as
+                possible. When applying scents to garments, keep in mind that
+                silk, suede, and leather do not mix well with perfume oils and
+                should be avoided.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="section-founder"
+        class="container-fluid"
+        data-aos="zoom-in-up"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
+        <div class="row">
+          <div class="col">
+            <div class="founder">
+              <div class="bar">
+                <p class="abril-font text-center m-0">Meet our Founder</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row flex-column-reverse flex-md-row">
+          <div class="col col-md-5">
+            <div class="work-sans-font fw-light text-center mt-3">
+              <h2 class="text-uppercase">Lemuel Jon Catipon</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                mollitia delectus at maxime, quisquam repellendus ullam
+                voluptatum vero quod aut fuga eos quas, ipsa distinctio aliquam.
+                Omnis nostrum deleniti ex odio iusto doloribus provident quaerat
+                tempora ullam, unde repellat dignissimos iste fugiat odit
+                incidunt delectus minus minima natus aliquam illum!
+              </p>
+            </div>
+          </div>
+          <div class="col col-md-7">
+            <div class="d-flex justify-content-end">
+              <img
+                class="founder-img"
+                src="./img/lemuel.jpg"
+                alt="Lemuel Catipon"
+              />
+            </div>
+          </div>
+        </div>
       </section>
     </main>
     <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="slick/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/index.js"></script>
   </body>
 </html>

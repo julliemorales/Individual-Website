@@ -117,6 +117,7 @@ nav {
 
 .carousel img {
   width: 100%;
+  border-radius: 30px;
 }
 
 .slick-prev::before,
@@ -125,7 +126,6 @@ nav {
 }
 
 .bar {
-  position: relative;
   width: 60%;
   background-color: rgba(0, 0, 0, 0.788);
   color: white;
@@ -146,8 +146,7 @@ nav {
 }
 
 .bar-2 p {
-  line-height: 18px;
-  letter-spacing: 1px;
+  line-height: 20px;
   color: white;
 }
 
@@ -158,4 +157,76 @@ nav {
   /* right: 60%; */
   width: 250px;
   /* height: 200px; */
+}
+
+.cover {
+  width: 100%;
+  height: 150px;
+  /* margin-top: 225px; */
+  opacity: 0.5;
+}
+
+#section-reminders > .row:nth-child(2) {
+  margin-top: 50px;
+}
+
+#section-reminders > .row:nth-child(3) {
+  margin-top: 300px;
+}
+
+#section-reminders > .row:nth-child(4) {
+  margin-top: 300px;
+}
+
+.bar-storage {
+  position: relative;
+  top: -20px;
+  right: 0;
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.788);
+  color: white;
+  font-size: 40px;
+}
+
+.bar-storage-2 {
+  left: 0;
+  width: 50%;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.paris-nobg {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 200px;
+}
+
+.recommendation {
+  position: relative;
+  /* top: 275px; */
+  /* width: 100%; */
+  padding-left: 200px;
+  background-color: #8e793e;
+}
+
+.recommendation p {
+  padding: 10px 20px 10px 0;
+  color: white;
+  line-height: 20px;
+}
+
+#section-founder {
+  margin-top: 150px;
+}
+
+.founder {
+  position: relative;
+  top: 30px;
+}
+
+.founder-img {
+  width: 70%;
 }
