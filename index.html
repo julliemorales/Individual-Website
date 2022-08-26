@@ -9,13 +9,16 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/custom-style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dawning+of+a+New+Day&family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+// Add the new slick-theme.css if you want the default styling
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="./css/custom-style.css" />
     <title>Lusso Perfumes</title>
   </head>
   <body>
@@ -86,9 +89,8 @@
                   class="wrapper px-4 row flex-column align-items-center justify-content-around"
                 >
                   <div>
-                    <h2 class="abril-font">
-                      Boost your confidence. Enhance your mood.
-                    </h2>
+                    <h2 class="abril-font mb-0 fs-1">Boost your confidence.</h2>
+                    <h2 class="abril-font fs-1">Enhance your mood.</h2>
                     <p class="work-sans-font mt-3 description">
                       The best perfume shop in the world and high quality that
                       provides various types of perfumes and clothing fragrances
@@ -103,23 +105,101 @@
                       </button>
                     </a>
                   </div>
-                  <div class="container">
-                    <div class="row">
-                      <div class="position-relative">
-                        <img
-                          class="img-gold"
-                          src="./img/gold.png"
-                          alt="gold brushstroke"
-                        />
-                        <h1
-                          class="position-absolute top-0 bottom-0 right-0 left-0 m-auto"
-                        >
-                          Lusso
-                        </h1>
-                      </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="position-relative">
+                <img
+                  class="img-gold"
+                  src="./img/gold.png"
+                  alt="gold brushstroke"
+                />
+                <h1 class="lusso lusso-font">Lusso</h1>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row flex-column flex-md-row mt-5"">
+              <div class="col-md-6">
+                <div>
+                  <img
+                    class="w-100"
+                    src="./img/veralusso.jpg"
+                    alt="Vera Lusso"
+                  />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="work-sans-font">
+                  <h2>Lorem ipsum dolor sit amet.</h2>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Similique, enim amet ullam ad dicta assumenda corrupti?
+                    Labore amet sequi excepturi?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="row flex-column flex-md-row-reverse mt-5">
+              <div class="col-md-6">
+                <div>
+                  <img
+                    class="w-100"
+                    src="./img/lussomaior.jpg"
+                    alt="Lusso Maior"
+                  />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="work-sans-font text-end">
+                  <h2>Lorem ipsum dolor sit amet.</h2>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Similique, enim amet ullam ad dicta assumenda corrupti?
+                    Labore amet sequi excepturi?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="p-5">
+                  <div class="carousel">
+                    <div>
+                      <img class="" src="./img/amsterdam.jpg" alt="Lusso Amsterdam">
+                    </div>
+                    <div>
+                      <img class="" src="./img/barcelona.jpg" alt="Lusso Barcelona">
+                    </div>
+                    <div>
+                      <img class="" src="./img/paris.jpg" alt="Lusso Paris">
+                    </div>
+                    <div>
+                      <img class="" src="./img/rome.jpg" alt="Lusso Rome">
+                    </div>
+                    <div>
+                      <img class="" src="./img/tokyo.jpg" alt="Lusso Tokyo">
+                    </div>
+                    <div>
+                      <img class="" src="./img/london.jpg" alt="Lusso London">
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="position-relative">
+                <img
+                  class="img-gold-reminder"
+                  src="./img/gold.png"
+                  alt="gold brushstroke"
+                />
+                <h1 class="lusso lusso-font">Reminders</h1>
               </div>
             </div>
           </div>
@@ -128,5 +208,8 @@
     </main>
   </body>
   <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
   <script src="./js/index.js"></script>
 </html>
