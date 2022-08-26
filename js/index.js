@@ -7,4 +7,12 @@ $(document).ready(function () {
     dots: true,
     draggable: true,
   });
+  $(".carousel-md").slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    dots: true,
+    draggable: true,
+  });
 });
