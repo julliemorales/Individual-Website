@@ -441,7 +441,7 @@ footer > input {
   }
 
   .paris-nobg {
-    top: 25px;
+    top: 15px;
     left: 10px;
     width: 250px;
   }
@@ -450,5 +450,18 @@ footer > input {
     font-size: 20px;
     line-height: 35px;
     padding: 10px 10px 10px 70px;
+  }
+
+  .bar-founder {
+    font-size: 60px;
+  }
+
+  #section-founder h2 {
+    font-size: 35px;
+  }
+
+  .founder-p {
+    font-size: 25px;
+    line-height: 25px;
   }
 }
