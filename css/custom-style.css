@@ -79,7 +79,17 @@ nav {
 
 .lusso-icon {
   width: 63px;
-  height: 67px;
+}
+
+.centered-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered-logo .lusso-icon {
+  width: 57px;
 }
 
 .search-icon {
