@@ -32,23 +32,23 @@ nav {
   position: fixed;
 }
 
-#section-socials {
+#social-links {
   position: fixed;
   z-index: 1;
   top: 30%;
-  margin-left: -40px;
+  margin-left: -20px;
 }
 
-#section-socials ul {
+#social-links ul {
   padding: 15px 15px 15px 0;
 }
 
-#section-socials li {
+#social-links li {
   margin-top: 10px;
   list-style: none;
 }
 
-#section-socials a {
+#social-links a {
   color: #e6cd5f;
   text-decoration: none;
   font-size: 30px;
@@ -56,29 +56,23 @@ nav {
 }
 
 .right {
-  height: calc(100vh - 350px);
-  background: url(../img/both.jpg);
+  height: calc(100vh - 365px);
+}
+
+#section-hero .container-fluid {
+  background: url(../img/both-blur.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* .section-hero .row > div:nth-child(2) {
-  height: calc(100vh - 82px);
-  background: url(../img/both.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-
 .section-hero .wrapper {
-  backdrop-filter: blur(2px);
-  height: calc(100vh - 350px);
+  height: calc(100vh - 365px);
   /* padding-top: 137px; */
 }
 
 .image-left-md {
-  height: calc(100vh - 350px);
+  height: calc(100vh - 365px);
   width: 100%;
   border-radius: 80px;
 }
@@ -363,8 +357,8 @@ footer li a {
   background-color: #fef6eb;
 }
 
-footer > input {
-  background-color: transparent;
+footer input {
+  background-color: transparent !important;
 }
 
 .subscribe-button {
@@ -390,21 +384,39 @@ footer > input {
 }
 
 @media screen and (min-width: 992px) {
+  #logo-mobile {
+    display: none;
+  }
+
+  #logo-desktop img {
+    height: 54px;
+    /* width: 100%; */
+    object-fit: cover;
+  }
+
   .right {
-    height: calc(100vh - 350px);
+    height: calc(100vh - 365px);
     background: none;
   }
 
   #section-hero h2 {
-    font-size: 60px !important;
+    font-size: 40px !important;
   }
 
   #section-hero img {
     border-radius: 80px;
   }
 
+  #section-hero .container-fluid {
+    background: none;
+  }
+
   #section-him-her p {
     font-size: 20px;
+  }
+
+  .lusso-font {
+    font-size: 130px;
   }
 
   .bar {
@@ -463,5 +475,15 @@ footer > input {
   .founder-p {
     font-size: 25px;
     line-height: 25px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #section-socials {
+    width: 100%;
+  }
+
+  #social-links {
+    margin-left: 0;
   }
 }
