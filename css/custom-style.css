@@ -28,16 +28,18 @@ body {
 
 nav {
   background-color: #fef6eb;
+  z-index: 10;
+  position: fixed;
 }
 
 #section-socials {
   position: fixed;
   z-index: 1;
-  top: 50%;
+  top: 30%;
 }
 
 #section-socials ul {
-  padding: 15px;
+  padding: 15px 15px 15px 0;
 }
 
 #section-socials li {
@@ -59,6 +61,7 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 /* .section-hero .row > div:nth-child(2) {
   height: calc(100vh - 82px);
   background: url(../img/both.jpg);
@@ -71,6 +74,12 @@ nav {
   backdrop-filter: blur(2px);
   height: calc(100vh - 350px);
   /* padding-top: 137px; */
+}
+
+.image-left-md {
+  height: calc(100vh - 350px);
+  width: 100%;
+  border-radius: 80px;
 }
 
 .lusso-icon {
@@ -254,6 +263,13 @@ nav {
   width: 70%;
 }
 
+.bar-founder {
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.788);
+  color: white;
+  font-size: 40px;
+}
+
 /* #section-carousel-testimonials .carousel > div > div {
   height: 100%;
 } */
@@ -347,7 +363,4 @@ footer a:hover {
   border-radius: 8px;
   background-color: #fef6eb;
   border-color: #8e793e;
-}
-
-.subscribe-button:hover {
 }
