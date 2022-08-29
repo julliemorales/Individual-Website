@@ -1,3 +1,4 @@
+// Configure Slick Carousel
 $(document).ready(function () {
   $(".carousel").slick({
     arrows: false,
@@ -27,8 +28,10 @@ $(document).ready(function () {
   });
 });
 
+// Initialize AOS
 AOS.init();
 
+// Initialize Live Chat
 window.__lc = window.__lc || {};
 window.__lc.license = 14459466;
 (function (n, t, c) {
@@ -66,3 +69,12 @@ window.__lc.license = 14459466;
   };
   !n.__lc.asyncInit && e.init(), (n.LiveChatWidget = n.LiveChatWidget || e);
 })(window, document, [].slice);
+
+// Handle Navbar
+const nav = document.getElementById("navbar");
+window.onscroll = function () {
+  nav.style.boxShadow = "none";
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80)
+    nav.style.boxShadow =
+      "0 1px 1px rgb(0 0 0 / 1%), 0 10px 30px rgb(0 0 0 / 8%)";
+};
